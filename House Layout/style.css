@@ -1,0 +1,28 @@
+/* 1. Type Selector: Apply the same text color to all room names */
+div {
+    color: blue;
+}
+
+/* 2. Class Selector: Set Bedroom background color to light blue */
+.bedroom {
+    background-color: lightblue;
+}
+
+/* 3. ID Selector: Make Kitchen text color orange */
+#kitchen {
+    color: orange;
+}
+
+/* 4. Child Selector: Color only direct children inside .house */
+.house > div {
+    background-color: lightgray;
+}
+
+/* 5. Adjacent Sibling Selector: Select room after Living Room and make green */
+.living-room + div {
+    background-color: lightgreen;
+}
+
+/* 6. General Sibling Selector: Select all rooms after Kitchen and make them light pink */
+#kitchen ~ div {
+    background-color: lightpink;
